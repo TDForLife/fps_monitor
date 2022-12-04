@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:fps_monitor/widget/custom_widget_inspector.dart';
 
 void main() => runApp(MyApp());
@@ -106,7 +105,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.display1,
             ),
             FloatingActionButton(
               onPressed: _incrementCounter,
